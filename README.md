@@ -1,6 +1,6 @@
 # House Price and Category Prediction using multi-task neural networks
 
-This repository contains the code and data for the final project for MGSC 673 - Introduction to AI & Deep Learning. The final project is a part of the course curriculum for the Master of Management in Analytics (MMA) program at the Desautels Faculty of Management, McGill University.
+This repository contains the code and data for the final project for MGSC 673 - Introduction to AI & Deep Learning taught by [Prof. Fatih Nayebi](https://github.com/conqueror). The final project is a part of the course curriculum for the Master of Management in Analytics (MMA) program at the Desautels Faculty of Management, McGill University.
 
 ## Main Objective
 
