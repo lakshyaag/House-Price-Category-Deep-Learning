@@ -31,9 +31,8 @@ Traditional neural networks are typically trained for only one task, and accordi
 - Utilized appropriate loss functions for each task: Mean Squared Error (MSE) for regression and Cross-Entropy Loss for classification.
 - Combined the individual task losses into a single loss function using details in a paper on uncertainity weighting from Kendall et. al. The paper can be found here: [arXiv:1705.07115 [cs.CV]](https://arxiv.org/abs/1705.07115)
 - The final loss function is:
-    $$
-    L = (L_{R} \cdot \exp(-\eta_1) + \eta_1) + (L_{C} \cdot \exp(-\eta_2) + \eta_2)
-    $$
+  
+    $$L = (L_{R} \cdot \exp(-\eta_1) + \eta_1) + (L_{C} \cdot \exp(-\eta_2) + \eta_2)$$
 
     where,
   - $L_{R}$ is the MSE loss for regression
